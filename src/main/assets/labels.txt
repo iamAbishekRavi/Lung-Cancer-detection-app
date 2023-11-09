@@ -1,0 +1,5 @@
+adenocarcinoma
+large.cell.carcinoma
+squamous.cell.carcinoma
+pneumonia
+Normal 

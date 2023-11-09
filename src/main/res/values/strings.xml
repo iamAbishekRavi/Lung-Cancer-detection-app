@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lung Cancer Detection</string>
+    <string name="login">Login</string>
+    <string name="hello_abishek">Hello Abishek</string>
+</resources>

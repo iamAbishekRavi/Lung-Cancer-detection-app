@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="500dp"
+     android:background="@color/black"
+     android:id="@+id/imageView"/>
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/linLayout"
+         android:layout_centerHorizontal="true"
+         android:layout_below="@id/imageView"
+         >
+
+         <Button
+             android:id="@+id/Uploadbutton"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginRight="100dp"
+             android:background="@color/lavender"
+             android:text="Upload image"
+             android:textColor="@color/white"
+             tools:ignore="TextContrastCheck" />
+
+         <Button
+             android:id="@+id/Detectbutton"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@color/lavender"
+             android:text="Detect"
+             android:textColor="@color/white"
+             tools:ignore="TextContrastCheck" />
+     </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:text="prediction"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/linLayout"/>
+</RelativeLayout>
